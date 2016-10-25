@@ -1,0 +1,10 @@
+<!doctype html>
+<title>Minmat.se</title>
+<h1> Vem serverar din favvo denna vecka?</h1>
+<h3>Söksträng: {{ out.fexpr }}</h3>
+{% for dish in out %}
+<br>
+<a href="{{ dish.wurl }}">{{ dish.rname }}</a>
+<b> {{ dish.serv }} </b>
+</br>
+{% endfor %}
