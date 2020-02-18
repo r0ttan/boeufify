@@ -75,9 +75,9 @@ def custom_main(food):
     #for bo in bofgen:
     #    print(" boeuf på {}\n{}".format(bo[0], bo[1]))  #dynamic and default for no match
     outstring = ""
-    restobj = [Restaurants('Seltas', 'http://seltas-mat.se/dagens-lunch/', False),
-               Restaurants('Stationen', 'http://www.restaurang-station.se/veckans-lunch',False),
-               Restaurants('Bellevue', 'http://www.restaurangbellevue.se/',False),
+    restobj = [Restaurants('Snäckhagens', 'https://helagotland.se/lunchguiden/?ShowInfo=1&RestID=10334521/', False),
+               Restaurants('Borgen', 'https://bistroborgen.se/dag/',False),
+               Restaurants('Märthas', 'https://helagotland.se/lunchguiden/?ShowInfo=1&RestID=8334997/',False),
                Restaurants('Hotellet', 'http://www.brasserinorrtull.se/frontpage/meny/',False),
                Restaurants('BishopArms', 'http://www.kvartersmenyn.se/rest/14400',False),
                Restaurants('Café Delta', 'http://cafedelta.kvartersmenyn.se/', False)]
